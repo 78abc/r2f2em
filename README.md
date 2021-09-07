@@ -75,7 +75,7 @@ Our json database is updated like this
 {"sonid": "sonidDIGERVERILERLEKARISMASINDDJCEWUN1", "descriptionofdatabase": {"tr": {"aciklama": "Bu veritabanı, json formatında herkese açık bir veritabanıdır."}},  "id1": {"name":"John","lastname":"His Lastname","age":"35","country":"Germany"}}
 ```
 ## drop
-This method sets our database to default. So it's completely zero.
+This method sets our database to default. So it's completely zero. Doesn't delete the json file.
 ```php
 $a->drop();
 ```
