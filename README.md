@@ -34,7 +34,8 @@ Output
 Array ( [0] => stdClass Object ( [name] => John [surname] => His Surname [age] => 32 [country] => Germany ) )
 ```
 ### find
-We can return all rows with name value as an array with find method
+We can return all rows with name value as an array with find method.
+In addition, the find method adds the id value to the row it finds in the database. Thus, since the id value of the reached row is known, we can use this id value in the update method for data update.
 ```php
 print_r($a->find("name"));
 ```
